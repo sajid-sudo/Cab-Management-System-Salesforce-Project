@@ -1,56 +1,6 @@
-# Cab-Management-System---SalesForce-Project
-
-This is a very basic `Cab Management System` made for SalesForce Platform as our Summer Training Project. 
-We developed it within 1 week, while learning SalesForce side by side, so it's not going to be the BEST logic or cleanest work/project you've ever seen.
-This project was developed with the mindset of "Using SalesForce without letting the users know about it". What does that even mean?
-We wanted to create a website where users can book a cab, get the cab assigned and then get the bills on their registered E-Mail IDs.All this on SalesForce platform, but the user won't see anything related to SalesForce. They should simply see the website, do their work and be done with it. That's it.
-
-
-#The Team
-
-Team had 6 members, and here are their names :
-
-1.) [Dhruv Kanojia](https://github.com/Xonshiz)
-
-2.) [Hinshu Jain](https://github.com/CrackedLearner)
-
-3.) [Ankit Passi](https://github.com/ankitpassi141)
-
-4.) [Devesh Shyngle](https://github.com/deveshyngle)
-
-5.) [Raghav Sharma](https://github.com/dkrsharma73)
-
-6.)  Rasil Banga
-
-We're all in our 3rd year of college and are pursuing "C.S.E" from Northern India Engineering College (N.I.E.C).
-Not sure why, but we decided to go with the name "Cab Job" as our project name. Maybe because of some dirty reference lol.
-
-#Limitations
-
-1.) There's no `Driver` access currently.
-
-2.) No real time tracking. Hence, the distance calculated in Bill is the `Straight Path` to destination from pickup.
-
-3.) Poorly written VisualPage Code.
-
-4.) User Passwords saved in Object's field as simple text.
-
-#Strong Points
-
-There aren't a lot of strong points for this project, but I'll list some of them anyway :
-
-1.) Since the project is hosted on SalesForce, the data is being transmitted via HTTPS. So, data is somewhat safe
-
-2.) Based on triggers and classes. So, no `major` relationship is needed among various objects.
-
-3.) Proper Errors are generated on wrong data.
-
-4.) Real Time validation of input on Sign Up page.
-
-5.) Highly Customizable
+# Cab Management System SalesForce-Project
 
 #How to Use
-
 Using this is pretty simple. You'll need to make 4 objects from your side and make some fields in all the objects (would hardly take an hour).
 Since this project heavily uses Standard Objects from SalesForce, you won't have to specify objects on each and every page. Most of the work is being done on `Account` Object.
 I'll post an image to all the objects and their fields in description as soon as I get the time, so everyone knows which object is being used.
@@ -81,15 +31,8 @@ There's no driver's scenario, that is why the trip ends as soon as it starts. We
 
 Anyway, the project is very basic and does what it is intereded to do without any kind of problem(s).
 
-Btw, there's a login functionality and password reset functionality, which is done via apex class. Look for it in the code itself ;)
+Btw, there's a login functionality and password reset functionality, which is done via apex class. Look for it in the code itself ;
 
 
-#Notes
-
-Special thanks to our trainer `Mr. Shiv Shankar` for his help in writing some of these triggers and classes.
-
-The website's layout was ripped off of a template designed by `W3layouts`. You can find it [HERE](https://w3layouts.com/city-taxi-taxi-services-mobile-website-template/).
-
-I had to keep all the CSS, JS and jQuery in the VisualForce pages because it wasn't accepting the external file for some reason.
 
 
